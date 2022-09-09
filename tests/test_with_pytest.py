@@ -15,5 +15,5 @@ def test_hello_world_print(capsys):
     # This is how we capture the terminal output after running the print command.
     # Out is the console ouptput and err is an error
     out, err = capsys.readouterr()
-    assert out == 'Hello Keith\n'
+    assert out == 'Hello World\n'
     assert err == ''
